@@ -1,0 +1,90 @@
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+CIS 120 Game Project Proposal
+PennKey: yingjiao
+Name of TA you consulted with: Julia
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+
+===============
+=: Your Game :=
+===============
+
+- What game are you planning to implement? If it is a game of your own design,
+  or not especially well-known, provide a 2-3 sentence description of the game.
+
+  In this game, you control a little spaceship that sails through the dangerous
+  galaxy, escaping evil aliens. You can shoot star boulders from your spaceship,
+  to hit the alien. If the spaceship collides with the alien, the alien dies, but
+  but the spaceship loses health.
+
+- What classes and interfaces do you plan to create? How will the different
+  components of your game (the model, the GUI, etc.) interact?
+  
+  I will have a super class called the GameObj that everything in this galaxy
+  will inherit from. It’ll inherit methods like position, moving the object,
+  clipping the object in place etc
+
+  I will also have an interface for the alien, since most alien manipulation is done without specifying which type of alien it is,
+
+  For classes, I have a spaceship class to manipulate the spaceship, a boulder class,
+  to manipulate the boulder star that the spaceship shoots out. Under the alien interface,
+  I have 3 alien classes for the different types of Aliens. The Red for red aliens, Orange
+  for orange aliens, and Health class for alien hearts that the spaceship can collect to gain
+  Health.
+
+- What do you think will be the most challenging thing to implement?
+  The collision detector between the shapes. I'll have to check if they collide and look into
+  the alpha class etc
+
+
+====================
+=: Core Concept 1 :=
+====================
+
+Concept 1: ___(fill in the blank)____
+
+- What specific feature of your game will be implemented using this concept?
+
+
+- Why does it make sense to implement this feature with this concept? Justify
+  why this is a non-trivial application of the concept in question.
+
+
+====================
+=: Core Concept 2 :=
+====================
+
+Concept 2: ___(fill in the blank)____
+
+- What specific feature of your game will be implemented using this concept?
+
+
+- Why does it make sense to implement this feature with this concept? Justify
+  why this is a non-trivial application of the concept in question.
+
+
+====================
+=: Core Concept 3 :=
+====================
+
+Concept 3: ___(fill in the blank)____
+
+- What specific feature of your game will be implemented using this concept?
+
+
+- Why does it make sense to implement this feature with this concept? Justify
+  why this is a non-trivial application of the concept in question.
+
+
+====================
+=: Core Concept 4 :=
+====================
+
+Concept 4: ___(fill in the blank)____
+
+- What specific feature of your game will be implemented using this concept?
+
+
+- Why does it make sense to implement this feature with this concept? Justify
+  why this is a non-trivial application of the concept in question.
+
+
