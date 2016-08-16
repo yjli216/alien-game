@@ -108,11 +108,3 @@ CIS 120 Game Project README
   decrements the health and a boolean that checks if the health is zero to see if the 
   alien is dead. I'll probably not refactor
 
-========================
-=: External Resources :=
-========================
-
-- Cite any external resources (libraries, images, tutorials, etc.) that you may
-  have used while implementing your game.
-
-
